@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Fin de live</title>
+
+<style>
+@font-face {
+  font-family: 'MinecraftTen';
+  src: url('./MinecraftTen-VGORe.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'MinecraftTen', monospace !important;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* IMAGE DE FOND */
+body {
+  background: url('background.jpg') center / cover no-repeat;
+}
+
+/* ======================
+   TEXTE DE FOND INFINI
+====================== */
+
+.bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.line {
+  width: 100%;
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  font-size: 64px;
+  color: rgba(255,255,255,0.08);
+}
+
+.track span {
+  white-space: nowrap;
+  padding-right: 80px;
+}
+
+/* Animations */
+.left .track {
+  animation: scrollLeft 18s linear infinite;
+}
+
+.right .track {
+  animation: scrollRight 18s linear infinite;
+}
+
+@keyframes scrollLeft {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes scrollRight {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+/* ======================
+   CONTENU CENTRAL
+====================== */
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  width: 320px;
+  margin-bottom: 40px;
+}
+
+.message {
+  font-size: 72px;
+  color: #ffffff;
+  text-shadow: 4px 4px 0 #000;
+}
+</style>
+</head>
+
+<body>
+
+<!-- TEXTE DE FOND -->
+<div class="bg">
+
+  <div class="line left">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+
+  <div class="line right">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+
+  <div class="line left">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+
+  <div class="line right">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+
+    <div class="line left">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+
+  <div class="line right">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+    <div class="line left">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+
+  <div class="line right">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+    <div class="line left">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+
+  <div class="line right">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+    <div class="line left">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+
+  <div class="line right">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+    <div class="line left">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+
+  <div class="line right">
+    <div class="track">
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+      <span>LIVE TERMINE • LIVE TERMINE • LIVE TERMINE • LIVE TERMINE •</span>
+    </div>
+  </div>
+  
+
+</div>
+
+<!-- OVERLAY CENTRAL -->
+<div class="overlay">
+  <img src="earthquest-logo.png" class="logo">
+  <div class="message">MERCI DE NOUS AVOIR SUIVI !</div>
+</div>
+
+</body>
+</html>
